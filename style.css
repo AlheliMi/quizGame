@@ -1,0 +1,81 @@
+  .jumbotron { 
+    background: rgb(238, 163, 150);
+    opacity: 80%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+  
+  body {
+    background-image: url(assets/dental_original_size.jpg);
+    background-size: cover;
+    height: 100%;
+  };
+
+
+  .titulo{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: rgb(67, 130, 141);
+    border-style: double;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.iniciamos {
+  background-color: rgb(103, 175, 175);
+  padding-top: 3rem;
+  padding-bottom: 1px;
+  color: white;
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+  margin-bottom: 5rem !important;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+p{
+  padding-top: 1rem;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.btn {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+ .card-header {
+   color: rgb(40, 97, 97);
+   text-align: center;
+   text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .cuestBtn {
+  text-align: center; 
+  color: rgb(53, 155, 173);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 1.5rem;
+ }
+
+ #conteiner2 {
+   background-color:rgb(103, 175, 175);
+   margin-right: 7rem !important;
+ }
+  
+
+
+  .card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  };

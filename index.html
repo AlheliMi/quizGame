@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Montserrat:wght@500&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Dental Quiz Game</title>
+  </head>
+
+
+  <body style="background-color:powderblue;">
+
+            
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container align-items-center">
+              <h1 class="display-5;" style="color: white; text-align: center "><b>DENTAL QUIZ GAME</b></h1>
+            </div>
+        </div> 
+
+          
+          <div class= "container">
+              <div class="row align-items-center">
+                  <h1 class= "titulo">How much do you know about your <b>Stomatologic System</b>?</h1>
+              </div><br>
+              <div class="row"></div>
+              <div class="row">
+              <div class="col iniciamos"> 
+                  Let´s get started!!!
+                <button type="button" class="btn btn-outline-secondary" id="started">StartQuiz</button>
+              </div>
+              <div class="col iniciamos" style="text-align: center;" >
+                <div class="col" style="text-align: right;"  >
+                    <div class="container">
+                      <p>Quiz timer: <span id="conteo"> 90</span></p>
+                        <ul id="corectAnswers"></ul>
+                        <ul id="wrongAnswers"></ul>
+                    </div>
+                <br>
+                </div>
+              </div>
+              </div>
+
+              <div class="row"></div>    
+    <div class="container">
+         <div class="row align-items-center" >
+            <div class="col-6" id= "cuestionario">
+                <div class="card"  id="contenedor-cuestionarios">
+                    <div  class="card-header" id= "question">Super difficult Questions!!</div> 
+                    <div class="card-body" class="list-group" id="answers" >
+                        <button type="button" class="list-group-item list-group-item-action cuestBtn" id="a">confusing answers</button>
+                        <button type="button" class="list-group-item list-group-item-action cuestBtn" id="b">confusing answers</button>
+                        <button type="button" class="list-group-item list-group-item-action cuestBtn" id="c">confusing answers</button>
+                        <button type="button" class="list-group-item list-group-item-action cuestBtn" id="d">confusing answers</button>
+                    </div>
+                    <div class="card-footer text-muted">
+                        <div id="answerWrong"></div>
+                        <div id="answerRight"></div>
+                        <div id="timeRemainAfterQuestion"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container align-items-center" id="conteiner2">
+                    <div class="row align-items-center">
+                        <div class="col clearfix" style="text-align:center;">
+                            <span class="align-items-center">
+                            <div class="input-container" style="width: 10rem;">
+                              <label for="iniciales">Your Initials</label>
+                               <input class="form-control" style= "text-align:center;" type="text" id="placeholder" placeholder="Your initials">
+                               <button type="button" class="btn btn-outline-secondary" id="btn-submit"><span id="submit">Submit</span></button>
+                                 <div id="wrapper">
+                                  <div id="currentTime"></div>
+                                  <div id="questionsDiv">
+                                    <label for="puntaje" id="score1">score</label>
+                                    <h3>Highscores</h3>
+                                    <ul id="highScoreList"></ul>
+                                    <button id="clear" type="button" class="btn btn-outline-secondary" value="reset">Clear Highscores</button>
+                                    <button id="clear" type="button" class="btn btn-outline-secondary" value="restart" id="restart">Restart</button>
+                                  </div>
+                                 </div>    
+                            </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                 
+                                
+          
+  
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
